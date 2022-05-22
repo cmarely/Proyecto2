@@ -1,0 +1,27 @@
+<body>
+<div class="content">
+ <h1 style = "color: indigo; text-align: center;"> Dental </h1>
+<ul>
+  <li><a class="active" href=>Inicio</a></li>
+  <li><a href=>¿Quienes somos?</a></li>
+  <li><a href=>Servicios</a></li>
+  <li><a href=>Citas</a></li>
+  <li><a href=>Comentarios</a></li>
+  <li><a href=>X</a></li>
+
+</ul>
+<center><img src= "imagenes/toy-g3057ff6ed_1920.jpg"></center>
+<ul>
+<button class="button button">Ayuda</button>
+<button class="button button">Preguntas frecuentes</button>
+<button class="button button">Aviso de privacidad</button>
+</ul>
+
+<div class="bottomright"> <button class="button button">Inicio de sesión </button>
+</div>
+<footer>
+  <p>Marisol Cervantes López</p>
+  <hi> cmalrely2@gmail.com </hi>
+</footer>
+</body>
+</html>
