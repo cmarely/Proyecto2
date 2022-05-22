@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+.all-browsers {
+  margin: 0;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+.all-browsers > h1, .browser {
+  margin: 10px;
+  padding: 5px;
+}
+
+.browser {
+  background: white;
+}
+
+.browser > h2, p {
+  margin: 4px;
+  font-size: 90%;
+}
+</style>
+</head>
+<body>
+
+<article class="all-browsers">
+  <h1>Formulario</h1>
+  <article class="browser">
+   <h2> Menu</h2>
+  </article>
+  <article class="browser">
+    <h2>Llene el formulario</h2>
+<form action="/action_page.php">
+  <label for="fname">Nombre:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="lname">Apellido:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br>
+  <label for="lname">Correo electronico:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br>
+  <label for="lname">Telefono de contacto:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br>
+  <label for="lname">Dirección:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br>
+  <label for="lname">Dias de cita:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br>
+  <input type="submit" value="enviar">
+</form>   </article>
+  <article class="browser">
+  
+<p>Uno de nuestros asesores se pondrá en contacto contigo 
+</p>
+</article>
+
+
+</body>
+</html>
