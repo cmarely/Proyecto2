@@ -1,0 +1,87 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>index.html</title>
+<meta charset="utf-8">
+<style> 
+ *{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+background-color: lavender;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #ffb6c1	;
+}
+
+img{
+  width:900px;
+  height:700px;
+}
+
+.button {
+  background-color: #dc143c	; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button1 {font-size: 35px;}
+a:link {
+  text-decoration: none;
+}
+
+.bottomright {
+  position: fixed;
+  bottom: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+footer {
+  
+  padding: 20px;
+  text-align: center;
+  color: black;
+}
+
+</style>
+</head>
